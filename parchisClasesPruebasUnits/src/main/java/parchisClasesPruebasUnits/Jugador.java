@@ -11,6 +11,8 @@ public class Jugador {
 	private String nombre;
 	private Tablero tablero;
 	
+	// atributo ficha
+	
 	public Jugador(String nombre, Tablero tablero) {
 		
 		this.nombre = nombre;
