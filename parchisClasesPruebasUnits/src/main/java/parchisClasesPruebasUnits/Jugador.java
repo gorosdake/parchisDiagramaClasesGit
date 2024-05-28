@@ -55,6 +55,8 @@ public class Jugador {
 	
 	public void moverFicha(int cs) {
 		
+		//cambio
+		
 		int origen = consultarTablero();
 		tablero.cambiarFicha(origen, origen+cs);;
 		
